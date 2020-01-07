@@ -1,0 +1,72 @@
+html {
+    background-color: #ebf5f7;
+}
+
+.container_main {
+    display:flex;
+    flex-direction: column;
+    width:100%;
+}
+
+.wide_line {
+    display: flex;
+    width: 100%;
+    padding-top: 7em;
+    padding-bottom: 7em;
+    background-color: #6385A1;
+    justify-content: center;
+    border-top: solid 1px #131931;
+    border-bottom: solid 1px #131931;
+}
+
+.page_title {
+    text-align: center;
+    font-family: 'Cormorant SC', serif;
+    padding-top: 3.8em;
+    color:#1E2C5D;
+    font-size: 2.1em;
+    
+}
+
+.inner_box {
+    display: flex;
+    flex-direction: column;
+    width: 25%;
+    justify-content: center;
+}
+
+.buttons {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    padding:1em;
+}
+
+.copy {
+    border-radius: 4px;
+    font-family: 'Ibarra Real Nova', serif;
+    background-color: #565A5D;
+    border: solid 1px #BEE6E8;
+    margin-left: 0.2em;
+    color:white;
+    font-size: 1em;
+    padding:0.4em;
+}
+
+.generate {
+    border-radius: 4px;
+    font-family: 'Ibarra Real Nova', serif;
+    background-color: #565A5D;
+    border: solid 1px #BEE6E8;
+    color:white;
+    font-size: 1em;
+    padding:0.4em;
+}
+
+#output {
+    border: solid 1px #131931;
+    border-radius: 4px;
+    padding:0.9em;
+    text-align: center;
+}
+

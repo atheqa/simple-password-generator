@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css?family=Cormorant+SC&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Ibarra+Real+Nova&display=swap" rel="stylesheet">
+    <title>Password Generator</title>
+</head>
+
+<body>
+    <div class="container_main">
+        <h1 class="page_title">Password Generator</h1>
+        <div class="wide_line">
+            <div class="inner_box">
+                <input type="text" id="output" name="output">
+                <div class="buttons">
+                    <input class="generate" type="button" value="Generate!" onclick="givePassword()"> &nbsp; &nbsp;
+                    <button class="copy" data-clipboard-target="#output">Copy to Clipboard</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="clipboard.min.js"></script>
+    <script src="index.js"></script>
+</body>
+</html>

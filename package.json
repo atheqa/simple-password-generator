@@ -1,0 +1,11 @@
+{
+  "name": "to_do12",
+  "version": "1.0.0",
+  "description": "adding another function to make a password to yesterdays code",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "HK",
+  "license": "ISC"
+}
