@@ -2,6 +2,6 @@
 
 This is a simple password generator made with HTML/CSS/JS combo, that uses clipboard.js script to copy the password. 
 
-## Viewind the Generator
+## Viewing the Generator
 
 After cloning the repository to your computer with https://github.com/atheqa/simple-password-generator.git you can use the generator by opening the index.html file in the browser.
